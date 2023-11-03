@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.nextfight.NextFightClient"
+			"net.nextfight.client.NextFightClient"
 		]
 	},
 	"mixins": [

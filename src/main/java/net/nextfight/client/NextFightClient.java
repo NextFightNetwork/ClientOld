@@ -1,4 +1,4 @@
-package net.nextfight;
+package net.nextfight.client;
 
 import net.fabricmc.api.ModInitializer;
 
