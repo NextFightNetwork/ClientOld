@@ -25,7 +25,7 @@ public class Main {
                 //TODO get data from database
                 player.setName("MaximDe");
                 player.setRank(Rank.PLAYER);
-                player.setSelectedCape(Cape.BETA);
+                player.setSelectedCape(Cape.MAXIMCLIENT);
                 return player;
             }
         }

@@ -12,7 +12,7 @@
 		"sources": "https://github.com/NextFightNetwork/Client"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/nextfightclient/icon.png",
+	"icon": "assets/nextfightclient/textures/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
