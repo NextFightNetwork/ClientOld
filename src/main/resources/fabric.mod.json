@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "nextfightclient",
+	"version": "${version}",
+	"name": "NextFightClient",
+	"description": "Official NextFight server mod. Get notified if a game starts & collect cosmetics",
+	"authors": [
+		"MaximDe"
+	],
+	"contact": {
+		"homepage": "https://nextfight.net/",
+		"sources": "https://github.com/NextFightNetwork/Client"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/nextfightclient/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.nextfight.NextFightClient"
+		]
+	},
+	"mixins": [
+		"nextfightclient.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.24",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
